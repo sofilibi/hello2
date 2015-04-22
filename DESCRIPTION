@@ -11,3 +11,9 @@ Description: A thorough description
 License: MIT + file LICENSE
 Depends: R (>= 3.1.2)
 Suggests: testthat
+URL: #[![Travis-CI Build Status](https://travis-ci.org/sofilibi/hello2.png?branch=master)](https://travis-ci.org/sofilibi/hello2)
+[![AppVeyor Build Status](https://ci.appveyor.com/api/projects/status/github/sofilibi/hello2?branch=master)](https://ci.appveyor.com/project/sofilibi/hello2)
+BugReports: http://github.com/sofilibi/hello2/issues
+Suggests: knitr,
+    testthat
+VignetteBuilder: knitr
