@@ -22,3 +22,6 @@ notifications:
   email:
     on_success: change
     on_failure: change
+env:
+  global:
+    - BIOC_USE_DEVEL="FALSE"
